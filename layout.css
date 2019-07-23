@@ -1,0 +1,108 @@
+@import url('comment_insert.css');
+*{
+	margin: 0px;
+	padding:0px; 
+	font-family: arial;
+
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 786px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin:0px auto 0 auto;
+  margin-left: 375px;
+ 
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.wrapper {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+body{
+	background:#c7c7c7;
+}
+.wrapper
+{
+	background: #fff;
+	width:750px;
+	border:1px solid #a1a1a1;
+	margin:0px auto 0px auto;
+	height: auto;
+}
+.page-data
+{
+	width:auto;
+	height:50px;
+	color:#666;
+	margin: 10px;
+	border-bottom:1px solid #e1e1e1;
+}
+.comment-wrapper
+{
+	margin:10px;
+	border:1px solid #e1e1e1;
+	height:auto;
+	width:auto;
+
+}
+.comments-list
+{
+	height:auto;
+	font-size:14px;
+	margin:0 5px 10px 5px;
+	margin-top: 10px;
+	color:#555;
+	
+}
+ul.comments-holder-ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width:auto;
+	height:auto;
+	overflow:hidden;
+
+}
+ul.comments-holder-ul li.comment-holder
+{
+	list-style-type: none;
+	background:#fffff5;
+	height:50px;
+	width:auto;
+	margin:5px 0 5px 0;
+	border: 1px solid #e1e1e1;
+}
+ul.comments-holder-ul li.comment-holder:hover
+{
+	background: #ffffdb;
+}
+ul.comments-holder-ul li.comment-holder h3.username-field
+{
+	line-height: 22px;
+	color:blue;
+	margin-left: 10px;
+
+}
+ul.comments-holder-ul li.comment-holder .comment-text
+{
+	
+	
+	margin-left: 10px;
+
+}
